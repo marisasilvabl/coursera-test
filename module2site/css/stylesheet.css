@@ -1,0 +1,127 @@
+/*base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comic Sans MS", 
+  cursive, sans-serif; 
+  font-size: 100%; 
+  font-color: black;
+}
+
+p { 
+  background-color: gray; 
+  font-size: 100%; 
+  margin: 15px; 
+  padding: 33px 15px 10px; 
+  border: 1px solid black;
+  text-align: left;
+}
+
+
+#chicken {
+  color: black; 
+  background-color: #F08080;
+}
+
+#Beef {
+  color: white; 
+  background-color: #A52A2A; 
+}
+
+#Sushi {
+  color: black; 
+  background-color: #EEE8AA; 
+}
+
+/*DESKTOP STYLE */
+
+* {
+  box-sizing: border-box; margin: 0; padding: 0;
+}
+
+/********** desktop only **********/
+
+@media (min-width: 992px) {
+
+h1 {
+  color: black; 
+  font-size: 35px; 
+  text-align: center; 
+  width: all; 
+  margin: 20px 30px 50px;
+}
+section {
+	max-width: 33.3%;
+	float: left;
+
+	}
+h2 {
+  color: black; 
+  text-align: center; 
+  width: 160px; 
+  margin: 15px 15px;
+  border: 1px solid black;
+  float: right;
+}
+#p3 {
+	margin-left: 0px;
+}	
+
+}
+/********** Tablet only **********/
+@media (min-width: 769px) and (max-width: 991px) {
+
+h1 {
+  color: black; 
+  font-size: 35px; 
+  text-align: center; 
+  width: all; 
+  margin: 20px 30px 50px;
+}
+section {
+	float: left;
+	}
+#s1 {
+	float: left;
+	width: 50%;
+}
+#s2 {
+	float: left;
+	width: 50%;
+}
+
+	h2 {
+  color: black; 
+  text-align: center; 
+  width: 160px; 
+  margin: 15px 15px;
+  border: 1px solid black;
+  float: right;
+}
+}
+/********** Phone only **********/
+@media (max-width: 767px) {
+
+h1 {
+  color: black; 
+  font-size: 35px; 
+  text-align: center; 
+  width: all; 
+  margin: 20px ;
+}
+section {
+	max-width: 100%;
+	float: left;
+	margin: 0px 25px;	
+	}
+h2 {
+  color: black; 
+  text-align: center; 
+  width: 160px; 
+  margin: 15px 15px;
+  border: 1px solid black;
+  float: right;
+}
+	}
